@@ -1,0 +1,108 @@
+/* Paleta PixelNorte
+Principal: #f1f1f1
+Secundario: #ffaa00
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #333;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+h1, h2 {
+    color: #0055ff;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+
+/* Header y navegación (Flexbox) */
+#site-header {
+    background-color: #f1f1f1;
+    color: white;
+    padding: 20px;
+}
+
+#nav-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-principal ul {
+    list-style: none;
+}
+
+#nav-principal a {
+    text-decoration: none;
+    color: #ffaa00;
+}
+
+/* Inicio (box model + Flexbox) */
+#bienvenida, #quienes-somos {
+    padding: 10px;
+    max-width: 800px;
+}
+
+#quienes-somos ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+}
+
+#quienes-somos li {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+/* Tabla */
+#tabla-servicios {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabla-servicios th, #tabla-servicios td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#tabla-servicios th {
+    background-color: #0055ff;
+    color: white;
+}
+
+/* Form con Grid */
+#formulario-contacto label {
+    display: block;
+}
+
+#formulario-contacto input, 
+#formulario-contacto select, 
+#formulario-contacto textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#formulario-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+#formulario-contacto .campo-ancho {
+    grid-column: 1 / -1;
+}
+
+

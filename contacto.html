@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>.:: Pixel Norte ::. || Contacto ||</title>
+</head>
+<body>
+
+    <header id="site-header">
+        <img src="logo_pixel_norte.png" alt="Logo de Pixel Norte">
+        <h1>PixelNorte || Contacto</h1>
+        <link rel="stylesheet" href="style.css">
+    </header>
+    <nav id="nav-principal">
+        <ul>
+            <li><a href="index.html">| Inicio </a></li>
+            <li><a href="servicios.html">| Servicios </a></li>
+            <li><a href="contacto.html">| Contacto </a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Dejanos tu consulta y te responderemos a la brevedad para comenzar a trabajar juntos.</p>
+            
+            <form id="formulario-contacto" action="#" method="post">
+                <div>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                
+                <div>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div>
+                    <label for="telefono">Teléfono (opcional):</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                
+                <div>
+                    <label for="servicio-interes">Servicio de interés:</label>
+                    <select id="servicio-interes" name="servicio_interes">
+                        <option value="landing">Landing Page Básica</option>
+                        <option value="institucional">Sitio Web Institucional</option>
+                        <option value="ecommerce">Tienda E-Commerce</option>
+                        <option value="mantenimiento">Mantenimiento Mensual</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <p>¿Cómo preferís que te contactemos?</p>
+                    <label for="pref-email">
+                        <input type="checkbox" id="pref-email" name="preferencia_contacto" value="email"> Email
+                    </label>
+                    <label for="pref-whatsapp">
+                        <input type="checkbox" id="pref-whatsapp" name="preferencia_contacto" value="whatsapp"> WhatsApp
+                    </label>
+                    <label for="pref-telefono">
+                        <input type="checkbox" id="pref-telefono" name="preferencia_contacto" value="telefono"> Teléfono
+                    </label>
+                </div>
+                
+                <div>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="40"></textarea>
+                </div>
+                
+                <div>
+                    <button type="submit">Enviar Consulta</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer id="site-footer">
+        <p>Pixel Norte &copy; 2026. Algunos derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

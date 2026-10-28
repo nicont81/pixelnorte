@@ -23,7 +23,7 @@ h1, h2 {
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 
-/* Header y navegación (Flexbox) */
+/* Cabecera/navegación (Flexbox) */
 #site-header {
     background-color: #f1f1f1;
     color: white;
@@ -104,5 +104,3 @@ h2 { font-size: 1.5em; }
 #formulario-contacto .campo-ancho {
     grid-column: 1 / -1;
 }
-
-

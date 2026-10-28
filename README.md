@@ -14,3 +14,4 @@ Sitio web institucional inicial de ejemplo para una agencia de diseño y desarro
 
 ### Autoría
 NicoNT81 - Tecnicatura Superior en Desarrollo de Software Full Stack, IPAP Río Negro.
+Con aportes de @animorqn como colaboradora.-
